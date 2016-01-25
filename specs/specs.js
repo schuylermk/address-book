@@ -9,5 +9,6 @@ describe ("Contact", function() {
     var myContact = new Contact("Seymour","Code");
     expect(myContact.fullName()).to.equal("Seymour Code");
   });
+  
 
 });
