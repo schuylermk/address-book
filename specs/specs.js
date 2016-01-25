@@ -7,7 +7,7 @@ describe ("Contact", function() {
   });
   it("will add the fullName method for any contact", function() {
     var myContact = new Contact("Seymour","Code");
-    expect(myContact.fullName()).to.equal("Seymour Code")
+    expect(myContact.fullName()).to.equal("Seymour Code");
   });
 
 });
